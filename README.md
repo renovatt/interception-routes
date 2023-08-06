@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align='center'>
+<img src="https://skillicons.dev/icons?i=next" width="80px"></h1>
+<br/> <br/>
+<h1>Rotas Paralelas</h1> 
+<h2>Interceptação de Rotas</h2> 
+</div>
 
-## Getting Started
+## Descrição
 
-First, run the development server:
+### Neste projeto, estou implementando a interceptação de rotas e criando [rotas estáticas](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes) em conjunto com a funcionalidade de [Parallel Routing](https://nextjs.org/docs/app/building-your-application/routing/parallel-routes), o que resulta em uma experiência incrível para os usuários. A vantagem principal é a capacidade de renderizar simultaneamente ou condicionalmente várias páginas no mesmo layout, o que significa que há apenas um carregamento inicial, sem necessidade de carregamentos adicionais ao navegar entre as páginas, pois todas já foram carregadas durante a construção do aplicativo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Outro benefício é a possibilidade de renderizar slots de forma condicional, dependendo de certas condições, como o estado de autenticação do usuário. Isso permite manter códigos separados para a mesma URL, tornando a organização e a manutenção do código mais eficientes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Com a combinação da interceptação de rotas e o uso inteligente do Parallel Routing, estamos proporcionando aos usuários uma navegação mais fluída, conteúdo mais rápido e maior flexibilidade na apresentação de informações. Essa abordagem é realmente incrível e nos possibilita criar aplicativos web mais avançados, intuitivos e atraentes para que os usuários desfrutem de uma experiência aprimorada.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Ver Projeto](https://interception-routes.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#
 
-## Learn More
+## Layout web
+![Web 1](./public/web-1.png)
+#
+![Web 2](./public/web-2.png)
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tecnologias
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+💻 **Front-end**
+- [Next.js 13.4](https://nextjs.org)
+- [Typescript](https://www.typescriptlang.org)
 
-## Deploy on Vercel
+📚 **Bibliotecas**
+- [zustand](https://zustand-demo.pmnd.rs/)
+- [react-query](https://tanstack.com/query/latest/docs/react/overview)
+- [react-icons](https://react-icons.github.io/react-icons/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🎨 **Estilização**
+- [tailwindcss](https://tailwindcss.com/docs/installation)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🔋 **Versionamento e Deploy**
+- [Git](https://git-scm.com)
+- [Vercel](https://vercel.com/)
+
+<br>
+
+⚙️ **Configuranções e Instalações**
+
+Clone do Projeto
+
+    $ git clone https://github.com/renovatt/interception-routes.git
+Instalando as dependências
+
+    $ npm install
+
+Iniciando o projeto
+
+    $ npm run dev
+
+<br>
+
+**Como contribuir?**
+
+- Você pode dar suporte me seguindo aqui no GitHub
+- Dando uma estrela no projeto
+- Criar uma conexão comigo no linkedin fazendo parte da minha networking e curtir o meu projeto.
+
+<br>
+
+**Autor**
+[Wildemberg Renovato de Lima](https://www.linkedin.com/in/renovatt/)
